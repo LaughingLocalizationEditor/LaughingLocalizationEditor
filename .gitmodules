@@ -1,0 +1,9 @@
+[submodule "LaughingLocaleCore"]
+	path = LaughingLocaleCore
+	url = https://github.com/laughinglocalizationeditor/LaughingLocaleCore
+[submodule "LaughingLocaleGUI"]
+	path = LaughingLocaleGUI
+	url = https://github.com/laughinglocalizationeditor/LaughingLocaleGUI
+[submodule "LaughingLocaleModules"]
+	path = LaughingLocaleModules
+	url = https://github.com/laughinglocalizationeditor/LaughingLocaleModules
