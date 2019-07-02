@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaughingLocaleCore", "LaughingLocaleCore\LaughingLocaleCore.csproj", "{322833A6-387C-4B25-9473-A4A6178D7AA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaughingLocaleGUI", "LaughingLocaleGUI\LaughingLocaleGUI.csproj", "{309605C6-12BB-47CC-BD7A-F047DF70600C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaughingLocaleGUI", "LaughingLocaleGUI\LaughingLocaleGUI.csproj", "{309605C6-12BB-47CC-BD7A-F047DF70600C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaughingLocaleDivinity", "Modules\LaughingLocaleDivinity\LaughingLocaleDivinity.csproj", "{B29C708E-1CAD-4418-B822-5B61984E2DD4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LaughingLocaleModules", "LaughingLocaleModules", "{7C5A5B19-6C6F-4637-9B1C-7276DA6A81CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaughingLocaleDivinity", "LaughingLocaleModules\LaughingLocaleDivinity\LaughingLocaleDivinity.csproj", "{C2633D7A-8E34-49DA-921E-2FF8CD0E2EAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,13 +25,16 @@ Global
 		{309605C6-12BB-47CC-BD7A-F047DF70600C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{309605C6-12BB-47CC-BD7A-F047DF70600C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{309605C6-12BB-47CC-BD7A-F047DF70600C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B29C708E-1CAD-4418-B822-5B61984E2DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B29C708E-1CAD-4418-B822-5B61984E2DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B29C708E-1CAD-4418-B822-5B61984E2DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B29C708E-1CAD-4418-B822-5B61984E2DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2633D7A-8E34-49DA-921E-2FF8CD0E2EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2633D7A-8E34-49DA-921E-2FF8CD0E2EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2633D7A-8E34-49DA-921E-2FF8CD0E2EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2633D7A-8E34-49DA-921E-2FF8CD0E2EAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2633D7A-8E34-49DA-921E-2FF8CD0E2EAC} = {7C5A5B19-6C6F-4637-9B1C-7276DA6A81CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ABB90D9C-A240-40FB-940C-68D3C62ACC4B}
